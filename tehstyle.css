@@ -1,0 +1,77 @@
+body {
+    background-image: url("https://lh3.googleusercontent.com/0lCC2__WQVBVVwCVTY3-bvHIHCFegra9aafUJhYzZW-1bedM-zi8WS3Q814Cg6IOKVQH5o14bdQcPFjnTR-QnjF7fqnAn1Yaa1L5LuRI_RWyNNsdEch-WTtwY5SYYhWqcElGez6occ8w9kwQ5PrFuf8FwRkfgRt9T8tjABGHKNy5iHTyumJLK9jnUnv0oM-ISQHaDpMNEacJo3NZmXIAY95tG5muJ_De29CiVYFvt01QQtSA_PrKQgl95z27zCZHQg04xRxmNwTtiR04Gr3wuA1NZJdvCEr0eyA4kW3Y1gozrIYrEOxQfzfW2vX3_AMfKUZ_0TAEJbAuiWf62G_hKgQwj3zBk-STQNJeir67F_ETteul-HPIKfov6UAnqa0SYHbIoCcEbSCPuuzuwnFMcbLaOwql3BV049LsNZ8DDaC_pnuFMxdJ_So9lVJcXU3ZxCGwY4CFGZ-87QWOcKBxXxo_xqiY6LtwNs56EfmQzqgzXN4KVvan1jFE3ZO4Ek4CjRM_4QlyeY3HEScj512Voup9RL5ucefjvOVqwmJBD0-OC8CmnJD6m-fFDNTnIR3fa2KiJyltnLbKWJT2HI_Ytk6l5Ck0AsDP_5Gi4lU=w1280-h718-no");
+
+    color: #5e3b42;
+    font-family: verdana;
+    font-size: 100%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+h2 {
+    color: #d1f9d8;
+    text-align: center;
+}
+
+p {
+    color: #93b6f2;
+    text-align: center;
+}
+
+img {
+    image-orientation: center;
+    height: 50%;
+    width: 50%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Add a black background color to the top navigation (or none in this case)*/
+.topnav {
+    overflow-x: auto;
+    margin-left: 250px;
+    margin-right: auto;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+
+    text-decoration: overline;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #2b3e56; opacity: 0.8;
+    color: #f2a7a4;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button {
+    background-color: #254984;
+    padding: 14px 40px;
+    border-radius: 8px;
+    border: 8px;
+    color: white;
+
+}
